@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>CarServ - Car Repair HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link
+      href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- Spinner Start -->
+    <div
+      id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+    >
+      <div
+        class="spinner-border text-primary"
+        style="width: 3rem; height: 3rem"
+        role="status"
+      >
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+      <div class="row gx-0 d-none d-lg-flex">
+        <div class="col-lg-7 px-5 text-start">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-map-marker-alt text-primary me-2"></small>
+            <small> İzmit/KOCAELİ</small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center py-3">
+            <small class="far fa-clock text-primary me-2"></small>
+            <small>Pazartesi-Cumartesi: 09.00 - 22.00 </small>
+          </div>
+        </div>
+        <div class="col-lg-5 px-5 text-end">
+          <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+            <small class="fa fa-phone-alt text-primary me-2"></small>
+            <small>444 2 200</small>
+          </div>
+          <div class="h-100 d-inline-flex align-items-center">
+            <a class="btn btn-sm-square bg-white text-primary me-1" href=""
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white text-primary me-1" href=""
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white text-primary me-1" href=""
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <a class="btn btn-sm-square bg-white text-primary me-0" href=""
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar End -->
+
+    <!-- Navbar Start -->
+    <nav
+      class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0"
+    >
+      <a
+        href="index.html"
+        class="navbar-brand d-flex align-items-center px-4 px-lg-5"
+      >
+        <h2 class="m-0 text-primary"><i class="fa fa-car me-3"></i>CarServ</h2>
+      </a>
+      <button
+        type="button"
+        class="navbar-toggler me-4"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <div class="navbar-nav ms-auto p-4 p-lg-0">
+          <a
+            href="carserv_urun.html"
+            class="nav-item nav-link"
+            style="color: rgb(255, 31, 31)"
+            >Market</a
+          >
+
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Hakkımızda
+            </a>
+            <div class="dropdown-menu fade-up m-0">
+              <a href="about.html" class="dropdown-item">Şirketimiz</a>
+              <a href="mis-vis.html" class="dropdown-item">Misyon Vizyon</a>
+              <a href="team.html" class="dropdown-item">Ekibimiz</a>
+            </div>
+          </div>
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Hizmetlerimiz</a
+            >
+            <div class="dropdown-menu fade-up m-0">
+              <a href="mekanik_servis.html" class="dropdown-item"
+                >Mekanik ve Elektrik Onarım
+              </a>
+              <a href="lastik_yag_degisimi.html" class="dropdown-item"
+                >Lastik ve Yağ Değişimi</a
+              >
+              <a href="temizlik_bakim.html" class="dropdown-item"
+                >Temizlik ve Bakım</a
+              >
+            </div>
+          </div>
+
+          <div class="nav-item dropdown">
+            <a
+              href="#"
+              class="nav-link dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Birimlerimiz</a
+            >
+            <div class="dropdown-menu fade-up m-0">
+              <a href="booking.html" class="dropdown-item"
+                >Servis Danışmanlığı</a
+              >
+              <a href="sigorta_sirketleri.html" class="dropdown-item">
+                Sigorta Şirketleri</a
+              >
+              <a href="testimonial.html" class="dropdown-item">Yol Yardım</a>
+            </div>
+          </div>
+          <a href="deneme.html" class="nav-item nav-link">İletişim</a>
+
+          <a
+            href="contact.html"
+            class="btn btn-primary py-4 px-lg-5 d-none d-lg-block"
+            >Teklif Al<i class="fa fa-arrow-right ms-3"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+      <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="w-100" src="img/carousel-bg-1.jpg" alt="Image" />
+            <div class="carousel-caption d-flex align-items-center">
+              <div class="container">
+                <div
+                  class="row align-items-center justify-content-center justify-content-lg-start"
+                >
+                  <div class="col-10 col-lg-7 text-center text-lg-start">
+                    <h6
+                      class="text-white text-uppercase mb-3 animated slideInDown"
+                    >
+                      // Araç Bakım Merkezi //
+                    </h6>
+                    <h1
+                      class="display-3 text-white mb-4 pb-3 animated slideInDown"
+                    >
+                      Her Güzergah, Bakımlı Araçlarla Daha Güzel
+                    </h1>
+                    <a
+                      href="mekanik_servis.html"
+                      class="btn btn-primary py-3 px-5 animated slideInDown"
+                      >Mekanik Servis<i class="fa fa-arrow-right ms-3"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img class="w-100" src="img/carousel-bg-2.jpg" alt="Image" />
+            <div class="carousel-caption d-flex align-items-center">
+              <div class="container">
+                <div
+                  class="row align-items-center justify-content-center justify-content-lg-start"
+                >
+                  <div class="col-10 col-lg-7 text-center text-lg-start">
+                    <h6
+                      class="text-white text-uppercase mb-3 animated slideInDown"
+                    >
+                      // Araç Bakım Merkezi //
+                    </h6>
+                    <h1
+                      class="display-3 text-white mb-4 pb-3 animated slideInDown"
+                    >
+                      Her Detayda Özenle Hizmet
+                    </h1>
+                    <a
+                      href="temizlik_bakim.html"
+                      class="btn btn-primary py-3 px-5 animated slideInDown"
+                      >Detaylı Temizlik<i class="fa fa-arrow-right ms-3"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Üçüncü Carousel Başlangıcı -->
+          <div class="carousel-item">
+            <img class="w-100" src="img/carousel-bg-5.jpg" alt="Image" />
+            <div class="carousel-caption d-flex align-items-center">
+              <div class="container">
+                <div
+                  class="row align-items-center justify-content-center justify-content-lg-start"
+                >
+                  <div class="col-10 col-lg-7 text-center text-lg-start">
+                    <h6
+                      class="text-white text-uppercase mb-3 animated slideInDown"
+                    >
+                      // Araç Bakım Merkezi //
+                    </h6>
+                    <h1
+                      class="display-3 text-white mb-4 pb-3 animated slideInDown"
+                    >
+                      Her Rotada, Her Zaman Yanınızdayız !
+                    </h1>
+                    <a
+                      href="lastik_yag_degisimi.html"
+                      class="btn btn-primary py-3 px-5 animated slideInDown"
+                      >Yağ Bakımı <i class="fa fa-arrow-right ms-3"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Üçüncü Carousel Bitişi -->
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#header-carousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <!-- Carousel End -->
+
+    <!-- Service Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="d-flex py-5 px-4">
+              <i class="fa fa-certificate fa-3x text-primary flex-shrink-0"></i>
+              <div class="ps-4">
+                <h5 class="mb-3">Kaliteli Hizmet</h5>
+                <p>
+                  Kaliteli hizmet sunma taahhüdümüz, müşterilerimizin
+                  memnuniyetini en üst seviyede tutmayı amaçlar. Her aşamada
+                  müşteri odaklı yaklaşımımız, işimizin temelini oluşturur.
+                  Bizimle çalıştığınızda, işimizin özenli ve kaliteli olduğunu
+                  deneyimlersiniz.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="d-flex py-5 px-4">
+              <i class="fa fa-users-cog fa-3x text-primary flex-shrink-0"></i>
+              <div class="ps-4">
+                <h5 class="mb-3">Uzman Ekip Arkadaşları</h5>
+                <p>
+                  Araba servisi konusundaki deneyimimiz, her model ve marka araç
+                  için özel çözümler sunmamızı sağlar. Her servis işlemi, ekip
+                  arkadaşlarımızın uzmanlığı ve dikkatiyle yapılır.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div class="d-flex py-5 px-4">
+              <i class="fa fa-tools fa-3x text-primary flex-shrink-0"></i>
+              <div class="ps-4">
+                <h5 class="mb-3">Modern Ekipmanlar</h5>
+                <p>
+                  Her müşterimize çağdaş ve etkili bir hizmet sunmak için modern
+                  ekipmanlarımızı kullanıyoruz. Size araçlarınızı en üst düzeyde
+                  tutma ve performanslarını artırma fırsatı sunuyoruz.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- About Start -->
+    <div class="container-xxl py-5">
+      <div class="container">
+        <div class="row g-5">
+          <div class="col-lg-6 pt-4" style="min-height: 400px">
+            <div
+              class="position-relative h-100 wow fadeIn"
+              data-wow-delay="0.1s"
+            >
+              <img
+                class="position-absolute img-fluid w-100 h-100"
+                src="img/about.jpg"
+                style="object-fit: cover"
+                alt=""
+              />
+              <div
+                class="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5"
+                style="background: rgba(0, 0, 0, 0.08)"
+              >
+                <h1 class="display-4 text-white mb-0">
+                  15 <span class="fs-4">Yıllik</span>
+                </h1>
+                <h4 class="text-white">Tecrübe!</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h1 class="mb-4">
+              <span class="text-primary">CarServ <br /></span> Oto Bakımınız
+              İçin En İyi Yer
+            </h1>
+            <p class="mb-4">
+              Biz CarServ olarak, otomobil sahiplerine ve sürücülere dönük
+              taahhüdümüzü her işlemimizde kararlılıkla sürdürmekteyiz.
+              Misyonumuz, her müşterinin güvenini kazanmak ve onların sürüş
+              deneyimini daha güvenli ve keyifli hale getirmektir.
+            </p>
+            <div class="row g-4 mb-3 pb-3">
+              <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                <div class="d-flex">
+                  <div
+                    class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1"
+                    style="width: 45px; height: 45px"
+                  >
+                    <span class="fw-bold text-secondary">01</span>
+                  </div>
+                  <div class="ps-3">
+                    <h6>Profesyonel ve Uzman</h6>
+                    <span
+                      >Profesyonel ve uzman ekibimiz, her işlemde yüksek kalite
+                      standartlarını sağlamak için titizlikle çalışır.</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                <div class="d-flex">
+                  <div
+                    class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1"
+                    style="width: 45px; height: 45px"
+                  >
+                    <span class="fw-bold text-secondary">02</span>
+                  </div>
+                  <div class="ps-3">
+                    <h6>Kaliteli Hizmet Merkezi</h6>
+                    <span
+                      >Kalite ve müşteri memnuniyeti, işimizin merkezinde
+                      bulunur. Kaliteli Hizmet Merkezimiz, her müşteriye özel ve
+                      kaliteli çözümler sunar.</span
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                <div class="d-flex">
+                  <div
+                    class="bg-light d-flex flex-shrink-0 align-items-center justify-content-center mt-1"
+                    style="width: 45px; height: 45px"
+                  >
+                    <span class="fw-bold text-secondary">03</span>
+                  </div>
+                  <div class="ps-3">
+                    <h6>Daha Uzun Yol</h6>
+                    <span
+                      >Biz her işlemimizde performansı ve mükemmelliği
+                      hedefliyoruz. Performans, işimizin temel taşıdır ve her
+                      gün daha iyiye ulaşma yolculuğumuzun bir parçasıdır.</span
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="about.html" class="btn btn-primary py-3 px-5"
+              >Daha Fazla<i class="fa fa-arrow-right ms-3"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- About End -->
+
+    <!-- Fact Start -->
+    <div class="container-fluid fact bg-dark my-5 py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.1s"
+          >
+            <i class="fa fa-check fa-2x text-white mb-3"></i>
+            <h2 class="text-white mb-2" data-toggle="counter-up">15</h2>
+            <p class="text-white mb-0">Yıllık Tecrübe</p>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.3s"
+          >
+            <i class="fa fa-users-cog fa-2x text-white mb-3"></i>
+            <h2 class="text-white mb-2" data-toggle="counter-up">17</h2>
+            <p class="text-white mb-0">Uzman Teknisyen</p>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.5s"
+          >
+            <i class="fa fa-users fa-2x text-white mb-3"></i>
+            <h2 class="text-white mb-2" data-toggle="counter-up">1481</h2>
+            <p class="text-white mb-0">Memnun Müşteri</p>
+          </div>
+          <div
+            class="col-md-6 col-lg-3 text-center wow fadeIn"
+            data-wow-delay="0.7s"
+          >
+            <i class="fa fa-car fa-2x text-white mb-3"></i>
+            <h2 class="text-white mb-2" data-toggle="counter-up">1054</h2>
+            <p class="text-white mb-0">Tamamlanmış Proje</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fact End -->
+
+    <!-- Service Start -->
+    <div class="container-xxl service py-5">
+      <div class="container">
+        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+          <h1 class="mb-5">Hizmetlerimizi Keşfedin</h1>
+        </div>
+        <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+          <div class="col-lg-4">
+            <div class="nav w-100 nav-pills me-4">
+              <button
+                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active"
+                data-bs-toggle="pill"
+                data-bs-target="#tab-pane-1"
+                type="button"
+              >
+                <i class="fa fa-car-side fa-2x me-3"></i>
+                <h4 class="m-0">Mekanik Servis</h4>
+              </button>
+              <button
+                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                data-bs-toggle="pill"
+                data-bs-target="#tab-pane-2"
+                type="button"
+              >
+                <i class="fa fa-car fa-2x me-3"></i>
+                <h4 class="m-0">Elektrik ve Elektronik Onarım</h4>
+              </button>
+              <button
+                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                data-bs-toggle="pill"
+                data-bs-target="#tab-pane-3"
+                type="button"
+              >
+                <i class="fa fa-cog fa-2x me-3"></i>
+                <h4 class="m-0">Lastik Değişimi</h4>
+              </button>
+              <button
+                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0"
+                data-bs-toggle="pill"
+                data-bs-target="#tab-pane-4"
+                type="button"
+              >
+                <i class="fa fa-oil-can fa-2x me-3"></i>
+                <h4 class="m-0">Yağ Değişimi</h4>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="tab-content w-100">
+              <div class="tab-pane fade show active" id="tab-pane-1">
+                <div class="row g-4">
+                  <div class="col-md-6" style="min-height: 350px">
+                    <div class="position-relative h-100">
+                      <img
+                        class="position-absolute img-fluid w-100 h-100"
+                        src="img/service-1.jpg"
+                        style="object-fit: cover"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h3 class="mb-3">Oto Serviste 15 Yıllık Tecrübe</h3>
+                    <p class="mb-4">
+                      İşimizin merkezinde, size en iyi hizmeti sunma
+                      kararlılığımızın temeli olan zengin bir tecrübe bulunur.
+                      Müşterilerimize değer katmak için yılların deneyimini
+                      kullanıyoruz.
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-success me-3"></i>Kaliteli
+                      Hizmet
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-success me-3"></i>Uzman Ekip
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-success me-3"></i>Modern
+                      Ekipmanlar
+                    </p>
+                    <a
+                      href="mekanik_servis.html"
+                      class="btn btn-primary py-3 px-5 mt-3"
+                      >Hizmete Git <i class="fa fa-arrow-right ms-3"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="tab-pane-2">
+                <div class="row g-4">
+                  <div class="col-md-6" style="min-height: 350px">
+                    <div class="position-relative h-100">
+                      <img
+                        class="position-absolute img-fluid w-100 h-100"
+                        src="img/service-2.jpg"
+                        style="object-fit: cover"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h3 class="mb-3">Oto Serviste 15 Yıllık Tecrübe</h3>
+                    <p class="mb-4">
+                      İşimizin merkezinde, size en iyi hizmeti sunma
+                      kararlılığımızın temeli olan zengin bir tecrübe bulunur.
+                      Müşterilerimize değer katmak için yılların deneyimini
+                      kullanıyoruz.
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-success me-3"></i>Kaliteli
+                      Hizmet
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-success me-3"></i>Uzman Ekip
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-success me-3"></i>Modern
+                      Ekipmanlar
+                    </p>
+                    <a
+                      href="mekanik_servis.html"
+                      class="btn btn-primary py-3 px-5 mt-3"
+                      >Hizmete Git <i class="fa fa-arrow-right ms-3"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="tab-pane-3">
+                <div class="row g-4">
+                  <div class="col-md-6" style="min-height: 350px">
+                    <div class="position-relative h-100">
+                      <img
+                        class="position-absolute img-fluid w-100 h-100"
+                        src="img/service-3.jpg"
+                        style="object-fit: cover"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h3 class="mb-3">Oto Serviste 15 Yıllık Tecrübe</h3>
+                    <p class="mb-4">
+                      İşimizin merkezinde, size en iyi hizmeti sunma
+                      kararlılığımızın temeli olan zengin bir tecrübe bulunur.
+                      Müşterilerimize değer katmak için yılların deneyimini
+                      kullanıyoruz.
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-success me-3"></i>Kaliteli
+                      Hizmet
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-success me-3"></i>Uzman Ekip
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-success me-3"></i>Modern
+                      Ekipmanlar
+                    </p>
+                    <a
+                      href="lastik_yag_degisimi.html"
+                      class="btn btn-primary py-3 px-5 mt-3"
+                      >Hizmete Git <i class="fa fa-arrow-right ms-3"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade" id="tab-pane-4">
+                <div class="row g-4">
+                  <div class="col-md-6" style="min-height: 350px">
+                    <div class="position-relative h-100">
+                      <img
+                        class="position-absolute img-fluid w-100 h-100"
+                        src="img/service-4.jpg"
+                        style="object-fit: cover"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <h3 class="mb-3">Oto Serviste 15 Yıllık Tecrübe</h3>
+                    <p class="mb-4">
+                      İşimizin merkezinde, size en iyi hizmeti sunma
+                      kararlılığımızın temeli olan zengin bir tecrübe bulunur.
+                      Müşterilerimize değer katmak için yılların deneyimini
+                      kullanıyoruz.
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-success me-3"></i>Kaliteli
+                      Hizmet
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-success me-3"></i>Uzman Ekip
+                    </p>
+                    <p>
+                      <i class="fa fa-check text-success me-3"></i>Modern
+                      Ekipmanlar
+                    </p>
+                    <a
+                      href="lastik_yag_degisimi.html"
+                      class="btn btn-primary py-3 px-5 mt-3"
+                      >Hizmete Git <i class="fa fa-arrow-right ms-3"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Service End -->
+
+    <!-- Pricing Plan Start -->
+    <div
+      class="container-fluid py-5 wow fadeInUp"
+      data-wow-delay="0.1s"
+      style="margin-bottom: 75px"
+    >
+      <div class="container">
+        <div class="text-center mx-auto mb-5" style="max-width: 500px">
+          <h1 class="display-5 mb-0">KAMPANYALI PAKETLERİMİZ</h1>
+        </div>
+        <div class="row g-5">
+          <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
+            <div class="position-relative border border-primary rounded">
+              <div class="bg-primary text-center pt-5 pb-4">
+                <h3 class="text-white">Standart Paket</h3>
+                <h1 class="display-4 text-white">
+                  6750<small
+                    class="align-bottom"
+                    style="font-size: 16px; line-height: 40px"
+                    >₺'den başlayan fiyatlarla</small
+                  >
+                </h1>
+              </div>
+              <div class="text-center py-5">
+                <p class="border-bottom border-light mb-2 pb-2">
+                  Periyodik Bakım
+                </p>
+                <p class="border-bottom border-light mb-2 pb-2">
+                  Klima ve Bakteri Temizliği
+                </p>
+                <p class="border-bottom border-light mb-2 pb-2">Boya Koruma</p>
+                <p class="border-bottom border-light mb-2 pb-2">
+                  Ozonla Dezenfeksiyon
+                </p>
+                <p class="mb-2 pb-2">%20 Mekanik İşcilik İndirim</p>
+                <p class="mb-2 pb-2">%30 Oto Bakım İndirim</p>
+              </div>
+              <a
+                href=""
+                class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle"
+                >Paketi Seç</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
+            <div class="position-relative border border-secondary rounded">
+              <div class="bg-secondary text-center pt-5 pb-4">
+                <h3 class="text-white">Gold Paket</h3>
+                <h1 class="display-4 text-white">
+                  11925<small
+                    class="align-bottom"
+                    style="font-size: 16px; line-height: 40px"
+                    >₺'den başlayan fiyatlarla</small
+                  >
+                </h1>
+              </div>
+              <div class="text-center py-5">
+                <p class="border-bottom border-light mb-2 pb-2">
+                  Periyodik Bakım
+                </p>
+                <p class="border-bottom border-light mb-2 pb-2">
+                  Detaylı Temizlik
+                </p>
+                <p class="border-bottom border-light mb-2 pb-2">
+                  26 Nokta Check-Up
+                </p>
+                <p class="border-bottom border-light mb-2 pb-2">
+                  Seramik Kaplama
+                </p>
+                <p class="mb-2 pb-2">%20 Mekanik İşcilik İndirim</p>
+                <p class="mb-2 pb-2">%40 Oto Bakım İndirim</p>
+              </div>
+              <a
+                href=""
+                class="btn btn-secondary py-2 px-4 position-absolute top-100 start-50 translate-middle"
+                >Paketi Seç</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
+            <div class="position-relative border border-primary rounded">
+              <div class="bg-primary text-center pt-5 pb-4">
+                <h3 class="text-white">CarServ Paket</h3>
+                <h1 class="display-4 text-white">
+                  17450<small
+                    class="align-bottom"
+                    style="font-size: 16px; line-height: 40px"
+                    >₺'den başlayan fiyatlarla</small
+                  >
+                </h1>
+              </div>
+              <div class="text-center py-5">
+                <p class="border-bottom border-light mb-2 pb-2">
+                  Periyodik Bakım
+                </p>
+                <p class="border-bottom border-light mb-2 pb-2">
+                  Detaylı Temizlik
+                </p>
+                <p class="border-bottom border-light mb-2 pb-2">
+                  Seramik Kaplama ve Boya Koruması
+                </p>
+                <p class="border-bottom border-light mb-2 pb-2">
+                  Klima ve Bakteri Temizliği
+                </p>
+                <p class="mb-2 pb-2">%40 Mekanik İşcilik İndirimi</p>
+                <p class="mb-2 pb-2">%60 Oto Bakım İndirimi</p>
+              </div>
+              <a
+                href=""
+                class="btn btn-primary py-2 px-4 position-absolute top-100 start-50 translate-middle"
+                >Paketi Seç</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Pricing Plan End -->
+
+    <!-- Duyurular Start -->
+
+    <!-- Duyurular End -->
+
+    <div class="containerXAA">
+      <div class="text-center mx-auto mb-5" style="max-width: 500px">
+        <h1 class="display-5 mb-0">FIRSATLARI KAÇIRMA</h1>
+      </div>
+      <aside class="carouselx">
+        <div class="carousel__wrapper">
+          <div class="item" id="slide-0">
+            <img src="duyuru_img/duyuru1.png" alt="" width="418" height="418" />
+          </div>
+          <div class="item" id="slide-1">
+            <img src="duyuru_img/duyuru2.png" alt="" width="418" height="418" />
+          </div>
+          <div class="item" id="slide-2">
+            <img
+              src="duyuru_img/duyurular3.png"
+              alt=""
+              width="418"
+              height="418"
+            />
+          </div>
+          <div class="item" id="slide-3">
+            <img src="duyuru_img/duyuru4.png" alt="" width="418" height="418" />
+          </div>
+          <div class="item" id="slide-4">
+            <img src="duyuru_img/duyuru5.png" alt="" width="418" height="418" />
+          </div>
+          <div class="item" id="slide-5">
+            <img src="duyuru_img/duyuru6.png" alt="" width="418" height="418" />
+          </div>
+          <div class="item" id="slide-6">
+            <img src="duyuru_img/2.png" alt="" width="418" height="418" />
+          </div>
+        </div>
+      </aside>
+      <article class="instagram">
+        <header class="instagram__header">
+          <figure>
+            <img
+              src="duyuru_img/logo.png"
+              alt="Jake Dog"
+              width="42"
+              height="42"
+            />
+            <figcaption>
+              <h4>CarServ</h4>
+            </figcaption>
+          </figure>
+        </header>
+        <section class="instagram__media">
+          <div class="img"></div>
+        </section>
+        <footer class="instagram__buttons">
+          <div class="left">
+            <svg
+              class="instagram__icon instagram__icon--heart"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M16.8196 3.40477L16.8196 3.40468L16.8105 3.40435C15.9939 3.37401 15.1837 3.55848 14.4607 3.93934C13.7415 4.31818 13.1337 4.87813 12.6974 5.56376C12.3799 6.0141 12.1595 6.38237 12.0011 6.66645C11.841 6.38254 11.6182 6.01451 11.2971 5.5646C10.8588 4.88294 10.252 4.32584 9.53521 3.94728C8.81455 3.56666 8.00746 3.37954 7.19284 3.40423L7.19283 3.40408L7.18038 3.40477C5.73422 3.48471 4.37827 4.133 3.40801 5.20836C2.44041 6.28078 1.93462 7.69124 1.99999 9.13385C2.00344 10.8131 2.73878 12.1587 3.76066 13.3486C4.54375 14.2605 5.52952 15.1172 6.516 15.9745C6.80035 16.2216 7.08476 16.4688 7.36439 16.7173C7.71256 17.0283 8.0484 17.3289 8.36875 17.6156C9.03981 18.2163 9.64287 18.7561 10.1488 19.2024C10.8808 19.8482 11.4505 20.3358 11.7281 20.5156L11.9996 20.6915L12.2713 20.516C12.5291 20.3494 13.0097 19.9415 13.7041 19.3303C14.2257 18.8712 14.8883 18.2789 15.7018 17.5517C15.9935 17.2909 16.3047 17.0128 16.6357 16.7172C16.9253 16.4597 17.2205 16.2037 17.5157 15.9477C18.4876 15.105 19.4601 14.2617 20.2346 13.3628C21.2586 12.1744 21.9965 10.8264 22 9.13385C22.0653 7.69123 21.5596 6.28078 20.592 5.20836C19.6217 4.133 18.2657 3.48471 16.8196 3.40477ZM11.6142 4.35506L11.9954 4.80294L12.3761 4.35467C12.9155 3.71951 13.5913 3.21422 14.3531 2.87644C15.1144 2.53889 15.9419 2.37731 16.7742 2.40369C18.4866 2.47112 20.1027 3.21362 21.2694 4.46897C22.4364 5.72476 23.0588 7.39158 23.0003 9.10494L23 9.11347V9.122C23 12.4787 20.5608 14.6294 18.1924 16.6842C17.8966 16.94 17.598 17.2003 17.3031 17.462L17.3018 17.4632L16.3798 18.2872L16.3736 18.2927L16.3676 18.2985C15.2327 19.3827 14.0415 20.4065 12.7991 21.3656C12.5599 21.5162 12.2829 21.5962 12 21.5962C11.7171 21.5962 11.4402 21.5162 11.201 21.3657C9.9972 20.4352 8.84189 19.4436 7.73965 18.3948L7.73401 18.3894L7.7282 18.3842L6.7012 17.4662L6.70057 17.4657C6.43759 17.2314 6.17305 17.0015 5.91337 16.7758C5.88988 16.7554 5.86643 16.735 5.84303 16.7147C3.34442 14.5424 0.999982 12.4694 0.999982 9.122V9.11347L0.999691 9.10494C0.941196 7.39158 1.56352 5.72476 2.73058 4.46897C3.89709 3.21378 5.51295 2.47131 7.2251 2.40372C8.0557 2.37962 8.88112 2.54227 9.6405 2.87968C10.4006 3.21742 11.0751 3.72163 11.6142 4.35506Z"
+              ></path>
+            </svg>
+            <svg
+              class="instagram__icon instagram__icon--comment"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M20.656 17.008C21.8711 14.9061 22.2795 12.4337 21.8048 10.0527C21.3301 7.67172 20.0048 5.54497 18.0765 4.06978C16.1482 2.59458 13.7488 1.87186 11.3266 2.0366C8.9043 2.20135 6.62486 3.24231 4.91408 4.96501C3.20329 6.68772 2.17817 8.97432 2.03024 11.3977C1.8823 13.821 2.62166 16.2153 4.1102 18.1334C5.59874 20.0514 7.73463 21.3619 10.1189 21.82C12.5031 22.2782 14.9726 21.8527 17.066 20.623L22 22L20.656 17.008Z"
+              ></path>
+            </svg>
+            <svg
+              class="instagram__icon instagram__icon--message"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M22 3 9.218 10.083M11.698 20.334 22 3.001H2L9.218 10.084 11.698 20.334Z"
+              ></path>
+            </svg>
+          </div>
+          <div class="right">
+            <svg
+              class="instagram__icon instagram__icon--saved"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+            >
+              <path d="M20 21L12 13.44L4 21V3H20V21Z"></path>
+            </svg>
+          </div>
+        </footer>
+      </article>
+    </div>
+
+    <!-- Ortaklarımız Start -->
+    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+      <div class="container">
+        <div class="text-center">
+          <h1 class="mb-5">ORTAKLARIMIZ</h1>
+        </div>
+        <div class="owl-carousel testimonial-carousel position-relative">
+          <div class="testimonial-item text-center">
+            <img
+              class="p-2 mx-auto mb-3"
+              src="img/mercedes.png"
+              style="width: 80px; height: 80px"
+            />
+            <h3 class="mb-0">Mercedes</h3>
+            <p>Çözüm Ortağımız</p>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="p-1 mx-auto mb-2"
+              src="img/bmw.png"
+              style="width: 80px; height: 80px"
+            />
+            <h3 class="mb-0">BMW</h3>
+            <p>Çözüm Ortağımız</p>
+          </div>
+
+          <div class="testimonial-item text-center">
+            <img
+              class="p-1 mx-auto mb-2"
+              src="img/volkwagen.png"
+              style="width: 80px; height: 80px"
+            />
+            <h3 class="mb-0">Volkwagen</h3>
+            <p>Çözüm Ortağımız</p>
+          </div>
+
+          <div class="testimonial-item text-center">
+            <img
+              class="p-1 mx-auto mb-2"
+              src="img/volvo.png"
+              style="width: 80px; height: 80px"
+            />
+            <h3 class="mb-0">Volvo</h3>
+            <p>Çözüm Ortağımız</p>
+          </div>
+
+          <div class="testimonial-item text-center">
+            <img
+              class="p-1 mx-auto mb-2"
+              src="img/pejo.png"
+              style="width: 80px; height: 80px"
+            />
+            <h3 class="mb-0">Peugeot</h3>
+            <p>Çözüm Ortağımız</p>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="p-1 mx-auto mb-2"
+              src="img/fiat.png"
+              style="width: 80px; height: 80px"
+            />
+            <h3 class="mb-0">Fiat</h3>
+            <p>Çözüm Ortağımız</p>
+          </div>
+          <div class="testimonial-item text-center">
+            <img
+              class="p-1 mx-auto mb-2"
+              src="img/shell.png"
+              style="width: 80px; height: 80px"
+            />
+            <h3 class="mb-0">Shell</h3>
+            <p>Çözüm Ortağımız</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Ortaklarımız End -->
+
+    <!-- Footer Start -->
+    <div
+      class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn"
+      data-wow-delay="0.1s"
+    >
+      <div class="container py-5">
+        <div class="row g-5">
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Adres Bilgileri</h4>
+            <p class="mb-2">
+              <i class="fa fa-map-marker-alt me-3"></i>Atatürk Mahallesi
+              Cumhuriyet Bulvarı No:21 İzmit/Kocaeli
+            </p>
+            <p class="mb-2"><i class="fa fa-phone-alt me-3"></i> 444 2 200</p>
+            <p class="mb-2">
+              <i class="fa fa-envelope me-3"></i>info@carserv.com
+            </p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Çalışma Saatlerimiz</h4>
+            <h6 class="text-light">Pazartesi-Cumartesi</h6>
+            <p class="mb-4">09.00 - 21.00</p>
+            <h6 class="text-light">Pazar</h6>
+            <p class="mb-0">10.00 - 16.00</p>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Hizmetlerimiz</h4>
+            <a class="btn btn-link" href="">Arıza Tespiti</a>
+            <a class="btn btn-link" href="">Motor Servisi</a>
+            <a class="btn btn-link" href="">Lastik Değişimi</a>
+            <a class="btn btn-link" href="">Yağ Değişimi</a>
+            <a class="btn btn-link" href="">Detaylı Araç Yıkama</a>
+            <a class="btn btn-link" href=""> Müşterilerin Özel Talepleri</a>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <h4 class="text-light mb-4">Sosyal Medya Hesaplarımız</h4>
+            <div class="d-flex pt-2">
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="copyright">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#">Carserv.com </a>, Tüm
+              Hakları Saklıdır.
+
+              <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+              Designed By
+              <a class="border-bottom" href="https://www.dynamicsoftware.net/"
+                >Dynamic Software</a
+              >
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+              <div class="footer-menu">
+                <a href="">AnaSayfa</a>
+                <a href="">Çerezler</a>
+                <a href="">Yardım</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+      ><i class="bi bi-arrow-up"></i
+    ></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
